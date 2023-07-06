@@ -1,0 +1,38 @@
+.navbar-brand img { margin: -15px 0 0 20px;}
+.navbar-wrapper { position: absolute; z-index: 20;}
+
+.carousel-item {
+  height: 500px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.responsive-tabs .nav-tabs {display: none;}
+#solutioncontent ul { list-style-position: outside;	margin-left: 1.5em; }
+#solutioncontent ul li {margin-bottom: 1em;}
+
+
+@media (min-width: 768px) {
+    .responsive-tabs .nav-tabs { display: flex;}
+    .responsive-tabs .card { border: none;}
+    .responsive-tabs .card .card-header {display: none;}
+    .responsive-tabs .card .collapse { display: block;}
+	.welcome, .solution, .testimonials {float:left;}
+    .navbar-wrapper {margin-top: 20px;}
+}
+
+@media (max-width: 767px) {
+    .responsive-tabs .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+    div.container-fluid.navbar-wrapper { position: relative; width:100% ; margin:0; padding: 0;}
+    
+}
+
+
+
+
