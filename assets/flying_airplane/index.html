@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Week 12 Assignment</title>
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header class="hero">
+        <div class="headerMask">
+            <h1>Travel the Skies!</h1>
+        </div>
+    </header>
+    <div class="airplane">
+        <img src="images/airplane-md.png" alt="airplane">
+    </div>
+    <nav id="navbar" class="nav">
+        <ul>
+            <li><a href="/DO_VAN/Portfolio_draft1.html">Home</a></li>
+            <li><a href="#">Book</a></li>
+            <li><a href="#">Flight Status</a></li>
+            <li><a href="#">Check-In</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Design and Implementation of Parallax Effect</h2>
+            <h4> Write a brief report on the design and implementation of your parallax effect, the challenges you faced, and how you overcame them.</h4>
+            <p>The first challenge I had when it came to the Parallax Effect assignment, is to think of a concept in which I would utilize the parallax effect. I would say that I think in more of an analytical approach rather than a creative approach. </p>
+            <p>Another challenged I faced was that I do not have the tools, or Adobe Illustrator or Photoshop in order to take an image and create different layers of the image to create a mask to create depth. I downloaded the free tool GIMP and tried to create an inverted layer copy of the clouds and sky. However, I am not sure it worked. </p>
+            <p>When I was unsure if the parallax effect would work after so many days of contemplating and trying several other concepts and images, trying to create layers for depth. I finally came up with the concept of using the sky and clouds. Probably because my name actually means clouds in my culture. </p>
+            <p>I think I thought that using the white text incorporated with white clouds would give it some depth. In terms of interactivity, The only thing I could think to use was an airplane or a UFO, but that can probably be used for another concept. </p>
+        </section>
+        
+        
+    </main>
+
+
+    <script>
+        window.addEventListener('scroll', function() {
+            let scrollPosition = window.scrollY;
+            let moveDistance = scrollPosition * 3;
+            document.querySelector('.airplane').style.transform = "translateX(" + moveDistance + "px)";
+        })
+    </script>
+
+
+
+</body>
+</html>

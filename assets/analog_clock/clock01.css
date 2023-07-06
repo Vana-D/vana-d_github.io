@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: middle;
+    padding: 2em;
+    height: 90vh;
+}
+
+.clockbox { 
+    position: relative;
+    padding-left: 10px;
+}
+
+#clock, .clockbox {width: 100%;}
+
+* .circle{
+    fill:none;
+    stroke: #069;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {fill:#069;}
+
+* .hour-marks {
+    fill: none;
+    stroke: #069;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+* .hour-arm {
+    fill: none;
+    stroke: #069;
+    stroke-width: 18;
+    stroke-miterlimit: 10;
+}
+* .minute-arm {
+    fill: none;
+    stroke: #069;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+}
+* .second-arm {
+    fill: none;
+    stroke: #069;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+}
+
+.sizing-box {fill: none;}
+
+#hour, #minute, #second {
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out; 
+ }
+
+
+

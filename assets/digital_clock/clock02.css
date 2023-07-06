@@ -1,0 +1,28 @@
+
+body {
+  background: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.clock-display {
+  width: 405px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 50px;
+  color:#fff;
+  font-size: 100px;
+  font-family: sans-serif;
+  letter-spacing: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock-display span {
+  font-size: 20px;
+  display: block;
+}
+
