@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LATEST BOOTSTRAP CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>FAQs</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+  
+</head>
+
+<body>
+    <!-- STICKY NAVIGATION SECTION -->     
+    <div class="main-navigation sticky-top py-0">
+        <!--NAVIGATION BAR--> 
+        <nav class="container-fluid navbar navbar-expand-lg bg-white navbar-light p-0 m-0 d-flex flex-column flex-md-row">
+          <div class="container-fluid">
+              <a class="navbar-brand ms-lg-4" href="index.html"><img src="images/clearinsight_logo.png" class="img-fluid" id="logo" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>         
+              <div class="collapse navbar-collapse text-dark" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto pe-lg-2">
+                  <li class="nav-item">
+                    <a class="nav-link mx-2 text-dark active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 text-dark" aria-current="page" href="services.html">Services</a>
+                    </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link mx-2 text-dark dropdown-toggle" href="team.html" id="navbarDropdownMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+                      <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                      <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
+                      <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </li>               
+                  <li class="nav-item dropdown">
+                    <a class="nav-link mx-2 text-dark dropdown-toggle" href="newpatientinfo.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      New Patient Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                      <li><a class="dropdown-item" href="newpatientinfo.html">New Patient Information</a></li>
+                      <li><a class="dropdown-item" href="forms.html">Intake and Telepsychiatry Forms</a></li>
+                      <li><a class="dropdown-item" href="insurance.html">Insurances and Rates</a></li>
+                    </ul>
+                  </li>             
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-dark dropdown-toggle" href="faq.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    FAQs
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="faq.html#office">Office Policies</a></li>
+                      <li><a class="dropdown-item" href="faq.html#medication">Medication &amp; Refills</a></li>
+                      <li><a class="dropdown-item" href="faq.html#insurance">Insurances FAQs</a></li>
+                      <li><a class="dropdown-item" href="faq.html#specialists">Behavioral Health Specialists</a></li>
+                      <li><a class="dropdown-item" href="faq.html#other">Other FAQs</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      <!-- END STICKY NAVIGATION SECTION -->
+        
+    
+     
+<!-- HEADER -->	
+<header>
+  <div class="px-4 py-lg-0 my-0 text-center">
+    <h1 class="display-5 fw-bold mt-3">Frequently Asked Questions</h1>
+    <div class="col-lg-8 mx-auto my-lg-3">
+      <p class="lead">We recognize that everyone’s situation is unique and make every effort to understand all aspects of one’s life in order to bring the optimal health and best outcomes for our patients. </p> 
+      <p class="lead mb-1"> We firmly believe that a healthy mind leads to a healthy life.</p>
+    </div>
+  </div>    
+</header>  
+<!-- END HEADER -->	
+
+<!-- MAIN CONTENT CONTAINER -->
+<main class="content faq">
+  <div class="container-fluid">
+      <div class="row mt-2">
+          <aside class="col-lg-2 col-md-2 col-sm" id="left">
+              <div class="mt-5 mb-3 sticky-top" id="side">
+                  <ul class="nav flex-md-column flex-row justify-content-between" id="sidenav">
+                      <li class="nav-item"><a href="#office" class="nav-link text-white active pl-0">Office Policies</a></li>
+                      <li class="nav-item"><a href="#medication" class="nav-link text-white pl-0">Medication &amp; Refills</a></li>
+                      <li class="nav-item"> <a href="#insurance" class="nav-link text-white pl-0">Insurance FAQs</a></li>
+                      <li class="nav-item"><a href="#specialists" class="nav-link text-white pl-0">Behavioral Health Specialists</a></li>
+                      <li class="nav-item"><a href="#other" class="nav-link text-white pl-0">Other FAQs</a></li>
+                  </ul>
+              </div>
+          </aside>
+          <article class="col-lg-10 col-md-10 col-sm py-5">
+          <div>
+              <!-- ITEM 1 OFFICE POLICIES FAQs -->
+              <section id="office"> 
+                  <h4>Office Policies</h4>
+              <!-- ACCORDION 1 SECTION -->  
+              <div class="accordion accordion-flush m-3" id="accordion1Example">
+                  <div class="accordion-item">
+                      <!-- ACCORDION 1 QUESTION 1 SECTION -->   
+                      <h2 class="accordion-header" id="heading1One">
+                      <button class="accordion-button collapsed" data-toggle="collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="false" aria-controls="collapse1One">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          How does telemedicine work?
+                      </button>
+                      </h2>
+                      <div id="collapse1One" class="accordion-collapse collapse" aria-labelledby="heading1One" data-bs-parent="#accordion1Example">
+                      <div class="accordion-body">
+                          <p>• With the COVID-19 pandemic, ClearInsight Psychiatry has transitioned to using telemedicine to treat patients to ensure the safety of our patients. Telemedicine uses technology to connect patients with a healthcare provider to deliver care at a distance. As long as you have internet and a smartphone or a computer with a webcam and microphone, you will be able to have a visit with us. Many of our patients find that telemedicine is convenient as they can see us from any location.</p>
+                          <p>• Our providers send the link to the virtual room via text or email prior to your appointment.</p>
+                          <p>•	If you have further questions on how to set up your first appointment or about telemedicine, please call our office at 858-354-1304.</p>
+                      </div>
+                      </div>
+                  </div>
+                  <!-- ACCORDION 1 QUESTION 2 SECTION -->  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1Two">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          What is your cancellation policy?
+                      </button>
+                      </h2>
+                      <div id="collapse1Two" class="accordion-collapse collapse" aria-labelledby="heading1Two" data-bs-parent="#accordion1Example">
+                      <div class="accordion-body">
+                          <p>•	We understand. Life gets busy!</p>
+                          <p> •	If you need to cancel your appointment, we ask that you please cancel at least 24 hours before your appointment. For best results, please call our office at 858-354-1304.</p>
+                          <p> •	If you do cancel the day of your appointment and have not attempted to let us know prior, we charge a $50.00 cancellation fee.</p>  
+                      </div>
+                      </div>
+                  </div>
+                  <!-- ACCORDION 1 QUESTION 3 SECTION -->  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1Three">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          How long does it usually take to make an appointment?
+                      </button>
+                      </h2>
+                      <div id="collapse1Three" class="accordion-collapse collapse" aria-labelledby="heading1Three" data-bs-parent="#accordion1Example">
+                      <div class="accordion-body">
+                          <p>•	Our office asks that you make an initial appointment at least one month in advance.</p>
+                          <p>•	However, if you are unable to wait, please give our office a call and we will put you on a wait list in case any cancellations occur.</p>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              </section> 
+          <hr>   <br>
+              
+              <!-- ITEM 2 MEDICATION/REFILL FAQ -->
+              <section>
+                  <h4 id="medication">Medication &amp; Refills</h4>
+                  <!-- ACCORDION 2 SECTION -->  
+                  <div class="accordion accordion-flush m-3" id="accordion2Example">
+                      <div class="accordion-item">
+                          <!-- ACCORDION 2 QUESTION 1 SECTION -->   
+                          <h2 class="accordion-header" id="heading2One">
+                          <button class="accordion-button collapsed" data-bs-toggle="collapse" type="button"  data-bs-target="#collapse2One" aria-expanded="false" aria-controls="collapse2One">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                              Will I be prescribed medication on my first visit?
+                          </button>
+                          </h2>
+                          <div id="collapse2One" class="accordion-collapse collapse" aria-labelledby="heading2One" data-bs-parent="#accordion2Example">
+                          <div class="accordion-body">
+                              <p>•	While our expertise is in prescribing medication treatments that can improve the well-being of our patients, we believe that mental well-being can be approached in a myriad of ways. At the first appointment, Dr. Liang will formulate a treatment plan. We will only move forward with the treatment plan if both the patient and the physician see the plan as the best fit for the patient’s success. If a medication is recommended, Dr. Liang and our providers will only prescribe medication with the patient’s consent.</p>
+                  
+                              <p>•	On the first visit, patients may be seeking to use certain medications or refills of certain medications that were prescribed by a previous provider. We do an independent comprehensive psychiatric evaluation, so there may be occurrences when we will have a different medical opinion. If you have seen or are seeing a previous psychiatrist, therapist, psychologist, etc. we ask that you bring previous medical records so that we can make an informed treatment plan and coordinate care.</p>
+                  
+                              <p>•	In certain cases, we may not prescribe medication at the first appointment. This may happen especially if the patient does not have pre-existing medical records that show a dependable diagnosis and existing prescription and/or if the medication is a controlled substance (stimulants like Adderall, Ritalin, etc.; benzodiazepines like Klonopin, Lorazepam, Valium, Xanax, etc.; other controlled substances like Lunesta and Ambien, etc.). For new patients, we will check their profiles on CURES (Controlled Substance Utilization Review and Evaluation System). If we do choose to prescribe such controlled medications, we request our patients to see our providers monthly to every three months depending on the treatment plan for proper medication management.</p>
+                  
+                              <p>•	We strive to provide thorough and thoughtful care, but treatment is a team effort. All psychiatrists and physicians have different styles in their practice. If either the patient or our team feels that the patient-physician relationship is not tenable, then we recommended the patient seek another psychiatrist or mental health provider for help.</p>
+                  
+                          </div>
+                          </div>
+                      </div>
+                      <!-- ACCORDION 2 QUESTION 2 SECTION -->  
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2Two">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2Two" aria-expanded="false" aria-controls="collapse2Two">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                              How should I take my medication? How many refills do I have?
+                          </button>
+                          </h2>
+                          <div id="collapse2Two" class="accordion-collapse collapse" aria-labelledby="heading2Two" data-bs-parent="#accordion2Example">
+                          <div class="accordion-body">
+                              <p>•	If you need a refill on a medication that our office has prescribed, please call our office at (858) 354-1304 and let us know! </p>
+                              <p> • This is the best way to ensure that our providers can refill your medication in a timely manner. Also, to prevent any delays in medication refills, please do your best to call during office hours and try to plan around the holidays to avoid when our office staff is out of the office. </p>
+                              <p>• Please also be aware that we reserve the right to request to have an appointment with you before refilling the prescription, especially if we have not seen you in a while or if the medication is highly regulated (i.e., the medication is a controlled substance). This allows us to ensure the medication treatment is up to date for your safety.</p>
+                              
+                          </div>
+                          </div>
+                      </div>
+                      <!-- ACCORDION 2 QUESTION 3 SECTION -->  
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading2Three">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2Three" aria-expanded="false" aria-controls="collapse2Three">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          How do I receive a refill for my medication?
+                          </button>
+                          </h2>
+                          <div id="collapse2Three" class="accordion-collapse collapse" aria-labelledby="heading2Three" data-bs-parent="#accordion2Example">
+                          <div class="accordion-body">
+                          <p> •	If you need a refill on a medication that our office has prescribed, please call our office at (858) 354-1304 and let us know! This is the best way to ensure that our providers can refill your medication in a timely manner. </p>
+                          <p> •	Also, to prevent any delays in medication refills, please do your best to call during office hours and try to plan around the holidays to avoid when our office staff is out of the office. </p> 
+                          <p> •	Please also be aware that we reserve the right to request to have an appointment with you before refilling the prescription, especially if we have not seen you in a while or if the medication is highly regulated (i.e., the medication is a controlled substance). This allows us to ensure the medication treatment is up to date for your safety.</p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <hr>     <br>        
+          
+          
+              <!-- ITEM 3 INSURANCE FAQs -->
+              <section>
+                  <h4 id="insurance">Insurance FAQs</h4>
+              <!-- ACCORDION 3 SECTION -->  
+              <div class="accordion accordion-flush m-3" id="accordion3Example">
+              <!-- ACCORDION 3 QUESTION 1 SECTION --> 
+                  <div class="accordion-item"> 
+                      <h2 class="accordion-header" id="heading3One">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3One" aria-expanded="false" aria-controls="collapse3One">
+                      <i class="bi bi-plus-lg pe-2"></i>
+                      Is ClearInsight Psychiatry / Dr. Liang in my network?
+                      </button>
+                      </h2>
+                      <div id="collapse3One" class="accordion-collapse collapse" aria-labelledby="heading3One" data-bs-parent="#accordion3Example">
+                      <div class="accordion-body">
+                      <p> • Insurances contract with providers (physicians, psychologists, etc.) to create a network of providers for their customers. If we are not in your network, then we are not contracted with your insurance, and it is likely your insurance will not cover your visit with us.</p>
+              
+                      </div>
+                      </div>
+                  </div>
+                  <!-- ACCORDION 3 QUESTION 2 SECTION -->  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3Two">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Two" aria-expanded="false" aria-controls="collapse3Two">
+                      <i class="bi bi-plus-lg pe-2"></i>
+                      Do I need a referral from my primary care provider to see Dr. Liang?
+                      </button>
+                      </h2>
+                      <div id="collapse3Two" class="accordion-collapse collapse" aria-labelledby="heading3Two" data-bs-parent="#accordion3Example">
+                      <div class="accordion-body">
+                      <p>• If you have an HMO plan, it is likely that you will need a referral to see us. If you see us without a referral, your insurance likely will not cover your visit. Please double-check with your insurance!</p>
+                          
+                      </div>
+                      </div>
+                  </div>
+              
+                  <!-- ACCORDION 3 QUESTION 3 SECTION -->  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3Three">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Three" aria-expanded="false" aria-controls="collapse3Three">
+                      <i class="bi bi-plus-lg pe-2"></i>
+                      If ClearInsight Psychiatry is not in my network, do I have out-of-network benefits, what are they, and how do I use them?
+                      </button>
+                      </h2>
+                      <div id="collapse3Three" class="accordion-collapse collapse" aria-labelledby="heading3Three" data-bs-parent="#accordion3Example">
+                      <div class="accordion-body">
+                      <p> • Some insurance plans offer out-of-network benefits where your insurance may pay a portion of your costs when you see an out-of-network provider. Sometimes insurances ask you to fulfill an out-of-network deductible before your benefits start kicking in.</p>
+              
+                      <p>• If you would like to use out-of-network benefits, you may have to submit a claim yourself to your insurance. At ClearInsight Psychiatry, we are happy to provide invoices if needed.</p>
+                      
+                      </div>
+                      </div>
+                  </div>
+          
+                  <!-- ACCORDION 3 QUESTION 4 SECTION -->  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3Four">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Four" aria-expanded="false" aria-controls="collapse3Four">
+                      <i class="bi bi-plus-lg pe-2"></i>
+                          What is my copay for psychiatry visits?
+                      </button>
+                      </h2>
+                      <div id="collapse3Four" class="accordion-collapse collapse" aria-labelledby="heading3Four" data-bs-parent="#accordion3Example">
+                      <div class="accordion-body">
+                          <p>• Copay is a cost-sharing amount that a patient has to pay at each appointment. The amount is determined by your insurance and is often listed on the insurance card. </p>
+                      </div>
+                      </div>
+                  </div>
+                  
+                  <!-- ACCORDION 3 QUESTION 5 SECTION -->  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3Five">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3Five" aria-expanded="false" aria-controls="collapse3Five">
+                      <i class="bi bi-plus-lg pe-2"></i>
+                          What is my deductible?
+                      </button>
+                      </h2>
+                      <div id="collapse3Five" class="accordion-collapse collapse" aria-labelledby="heading3Five" data-bs-parent="#accordion3Example">
+                      <div class="accordion-body">
+                          <p>• A deductible is an amount you pay each year before your insurance starts paying. For example, John has a deductible of $5,000. John has to pay $5,000 in eligible medical costs before his insurance starts paying. </p>
+                      </div>
+                      </div>
+                  </div>
+                  </div>  
+              </section>
+              <hr>   <br>
+                                  
+              <!-- ITEM 4 BHS FAQs -->
+              <section>
+                  <h4 id="specialists">Behavioral Health Specialists</h4>
+                  <!-- ACCORDION 4 SECTION -->  
+                  <div class="accordion accordion-flush m-3" id="accordion4Example">
+                      <div class="accordion-item">
+                          <!-- ACCORDION 4 QUESTION 1 SECTION -->   
+                          <h2 class="accordion-header" id="heading4One">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4One" aria-expanded="false" aria-controls="collapse4One">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          What do Behavioral Health Specialist do?
+                          </button>
+                          </h2>
+                          <div id="collapse4One" class="accordion-collapse collapse" aria-labelledby="heading4One" data-bs-parent="#accordion4Example">
+                          <div class="accordion-body">
+                          <p>•	A behavioral health specialist works with patients through private and group therapy sessions where they counsel and treat their behavioral issues. They can benefit people suffering from depression, substance abuse disorder, bipolar disorder, co-occurring mental health disorders, and much more. This position is responsible for initial assessments, interviewing and observing a patient’s behavior, staying up to date on all documentation, developing treatment plans, and contacting families and other staff members about their patient’s progress. </p>
+                          </div>
+                          </div>
+                      </div>
+                      <!-- ACCORDION 4 QUESTION 2 SECTION -->  
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4Two">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4Two" aria-expanded="false" aria-controls="collapse4Two">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          What is the difference between Psychiatrists, Psychologists, and Licensed Therapists?
+                          </button>
+                          </h2>
+                          <div id="collapse4Two" class="accordion-collapse collapse" aria-labelledby="heading4Two" data-bs-parent="#accordion4Example">
+                          <div class="accordion-body">
+                          <p>•	Psychiatrists, psychologists, and licensed therapists (e.g. Licensed Mental Health Counselors or Licensed Clinical Social Workers) all have an important role in taking care of patients. While all professions are working towards the same goal of helping a patient improve his or her mental health, it is important to understand the differences so that one can know which provider fits his or her needs the best.</p>
+                          <p>  •	A notable difference between psychiatrists, psychologists, and licensed therapists is their post-graduate education. All providers have a 4-year undergraduate college education, but their post-graduate education differs.</p>
+                          <p>•	After undergraduate college, psychiatrists go to 4-year medical school (M.D. or D.O. programs), complete a 4-year residency in psychiatry, and some complete further training in psychiatry afterward in the form of fellowships. Most psychiatrists go on to become board-certified through the American Board of Psychiatry and Neurology, which means that they meet a nationally recognized standard in experience and skills in their specialty. Being board-certified in psychiatry requires a physician to continue their medical education yearly and retake the board exam every ten years.</p>
+                          <p> •	In contrast, psychologists pursue a 4-8 year research-focused Ph.D. or practice-focused Psy.D. that generally includes a year-long clinical internship. Psychologists can be focused on conducting research or on clinical practice. In California, state-licensed psychologists are required to complete continuing education courses to maintain their licenses.</p>
+                          <p> •	In general, licensed therapists complete a 1-2 year master’s degree and become licensed in their therapy specialty field of choice after their undergraduate education. Many licensed therapists need to take continuing education courses to maintain their licenses.</p>
+                          <p> •	Psychiatrists, psychologists, and licensed therapists are all trained in providing therapy and counseling to patients, but the types of treatment they can provide patients and their roles in a patient’s care differ significantly.</p>
+                          <p>•	Psychiatrists focus on diagnosing and treating mental illnesses through medicine. Due to their medical training, psychiatrists are able to prescribe and manage medication, evaluate a patient from a medical perspective, as well as perform medical treatments such as transcranial magnetic stimulation (TMS), electroconvulsive therapy (ECT), and so on. Psychiatrists also provide therapy such as psychoeducation, supportive psychotherapy, and problem-solving therapy. Psychiatrists can also prescribe and supervise ketamine therapy.</p>
+                          <p>•	Clinical psychologists focus also on diagnosing and treating mental illnesses and are informed through their research background, but they cannot prescribe medications. Psychologists are able to provide psychotherapy and perform testing assessments to diagnose and treat patients.</p>
+                          <p>•	Licensed therapists cannot diagnose patients nor provide medical treatment, but they can perform talk therapy and counseling in the specialty field that they are licensed in.</p>
+                          <p>•	At ClearInsight Psychiatry, Dr. Liang is an American Board of Psychiatry and Neurology certified psychiatrist, and Ripal Patel is a board-certified Psychiatric-Mental Health Nurse Practitioner. We believe in collaborative care and work with therapists to improve a patient’s well-being. Many mental health professionals share our beliefs as well and can help direct patients to the best treatment for them. If you are suffering, it is important to get help.</p>
+                          </div>
+                          </div>
+                      </div>
+                      <!-- ACCORDION 4 QUESTION 3 SECTION -->  
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading4Three">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4Three" aria-expanded="false" aria-controls="collapse4Three">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          What is the difference between a Nurse Practitioner (NP) and a Psychiatric-Mental Health Nurse Practitioner (PMHNP)?
+                          </button>
+                          </h2>
+                          <div id="collapse4Three" class="accordion-collapse collapse" aria-labelledby="heading4Three" data-bs-parent="#accordion4Example">
+                          <div class="accordion-body">
+                          <p>  •	An NP is a registered nurse who has completed a graduate program in nursing like a Master of Science in Nursing. This advanced training allows an NP to evaluate patients, create treatment plans, and prescribe medication. PMHNPs are NPs who have completed additional specialized training in providing mental health services. At ClearInsight Psychiatry, we believe that providing great healthcare is a team effort. Our PMHNPs treat patients under the direct supervision of our physician and allow us to provide the best care to our patients.     </p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <hr> <br>
+          
+              <!-- ITEM 5 OTHER FAQs -->
+              <section id="other">
+                  <h4>Other FAQs</h4>
+                  <!-- ACCORDION 5 SECTION -->  
+                  <div class="accordion accordion-flush m-3" id="accordion5Example">
+                      <div class="accordion-item">
+                          <!-- ACCORDION 5 QUESTION 1 SECTION -->   
+                          <h2 class="accordion-header" id="heading5One">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5One" aria-expanded="true" aria-controls="collapse5One">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          I think I have ADHD. How will I be diagnosed?
+                          </button>
+                          </h2>
+                          <div id="collapse5One" class="accordion-collapse collapse" aria-labelledby="heading5One" data-bs-parent="#accordion5Example">
+                          <div class="accordion-body">
+                          <p>•	Given the volume of phone calls for ADHD treatment, we would like to inform our patients of the general procedure at ClearInsight Psychiatry for making an ADHD diagnosis.</p>
+          
+                          <p>  •	ADHD stands for Attention-Deficit/Hyperactivity Disorder. ADHD is a real disorder that affects children, adolescents, and adults. It is classified into three different types: predominately inattention type; predominately hyperactivity/impulsivity type; and the combination of attention and hyperactivity type. The symptoms may appear differently in patients of different ages. However, ADHD symptoms, generally speaking, must appear prior to the age of 12 years, and they need to be present in two or more settings such as at home, school, or in the workplace. The symptoms cause significant impairment in a person’s functioning. The symptoms have to have persisted for at least 6 months to a degree that is more frequent and severe than in one’s peers. The symptoms are not to be better accounted for from another underlying medical or mental disorder(s).     </p>
+                          <p>•	If you were treated for ADHD by a previous psychiatrist or primary care doctor, you must be willing to sign a medical record authorization release form, so that we can obtain the previous medical records.</p>
+                          
+                          <p>•	If you want to be evaluated by us for ADHD, we have to do a thorough evaluation that includes an initial psychiatric evaluation by our clinicians and neuropsychological/psychological testing by a neuropsychologist.</p> 
+                          </div>
+                          </div>
+                      </div>
+                      <!-- ACCORDION 5 QUESTION 2 SECTION -->  
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading5Two">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5Two" aria-expanded="false" aria-controls="collapse5Two">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                          Could I get a letter for my pet to be deemed an “emotional support animal”?
+                          </button>
+                          </h2>
+                          <div id="collapse5Two" class="accordion-collapse collapse" aria-labelledby="heading5Two" data-bs-parent="#accordion5Example">
+                          <div class="accordion-body">
+                          <p>•	Our office has seen an increase in patient requests for emotional support animal letters for the purpose of recognizing a patient’s pet as an emotional support animal to secure “no pet” housing and/or traveling. We do not have the ability to certify an animal as an emotional support animal and thus do not write letters or complete forms to certify pets as emotional support animals.</p>
+                              
+                          </div>
+                          </div>
+                      </div>
+                      <!-- ACCORDION 5 QUESTION 3 SECTION -->  
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading5Three">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5Three" aria-expanded="false" aria-controls="collapse5Three">
+                          <i class="bi bi-plus-lg pe-2"></i>
+                              Additional Questions?
+                          </button>
+                          </h2>
+                          <div id="collapse5Three" class="accordion-collapse collapse" aria-labelledby="heading5Three" data-bs-parent="#accordion5Example">
+                          <div class="accordion-body">
+                          <p>•	Please call our office at <p><a href="tel:+8583541304">(858) 354-1304</a></p> if you have any further questions!</p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              <hr>      
+           </div>
+          </article>             
+      </div>         
+  </div>             
+</main>
+<!-- END MAIN CONTENT -->
+
+ 
+<!-- SCRIPTS -->  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- END SCRIPTS --> 
+
+
+<!-- FOOTER --> 
+<footer>
+    <!-- SECTION  -->
+    <section>
+        <div class="container pt-3">
+        <!-- GRID ROW -->
+        <div class="row pt-3">
+            <!-- GRID COLUMN -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-4">
+            <h6> CLEARINSIGHT PSYCHIATRY INC.</h6>
+            <hr>
+                <p>If you are experiencing a medical emergency, please go to your nearby emergency room.</p>   
+                <p>If you are having suicidal thoughts or a mental health crisis, please call the National Suicide and Crisis Lifeline at 988.</p>
+            </div>
+            <!-- END GRID COLUMN -->
+    
+            <!-- GRID COLUMN -->
+            <div class="col-md-3 col-lg-3 col-xl-2 mx-auto my-4">
+            <h6>CONTACT</h6>
+            <hr>
+            <p>Phone: <a href="tel:+8583541304">(858)354-1304</a></p>
+            <p>Fax: (858) 210-7177</p>
+            <p>Email: <a href="mailto:li.liang.md@gmail.com">li.liang.md@gmail.com</a></p>
+            </div>
+            <!-- END GRID COLUMN -->
+    
+            <!-- GRID COLUMN -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-4">
+            <h6>HOURS</h6>
+            <hr>
+            <p>Monday through Friday</p>
+            <p>9:30AM to 4:30PM</p>
+            </div>
+            <!-- END GRID COLUMN -->
+    
+            <!-- GRID COLUMN -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 my-4">
+            <h6>LOCATION</h6>
+            <hr>
+            <p>9888 Carroll Centre Road</p>
+            <p>Suite 118</p>
+            <p>San Diego, CA 92126</p>
+            </div>
+            <!-- END GRID COLUMN -->
+        </div>
+        <!-- END GRID ROW -->
+          </div>
+      </section>
+        <!-- END SECTION  -->
+      <section id="copyright">
+        <!-- COPYRIGHT -->
+        <div class="p-3">
+            <p>Copyright © 2023 ClearInsight Psychiatry Inc.</p>
+            <p class="text-secondary small">created by Kindheartedness Designs</p>
+        </div>
+        <!-- COPYRIGHT -->
+      </section>
+  </footer>
+  <!-- END FOOTER -->
+   
+
+</body>
+</html>

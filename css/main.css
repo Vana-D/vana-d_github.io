@@ -131,7 +131,8 @@ nav ul {margin-top: 180px;}
 }
 
 .p-one > h1 {
-    color:  #d87f81;
+    /* color:  #d87f81; */
+    color:#041b2d;
     font-size: 28px;
     margin-top: -60px;
 }
@@ -141,10 +142,15 @@ nav ul {margin-top: 180px;}
 }
 
 .parallax-inner > h2 {
-    color:#041b2d;
+    color:#041b2d; 
     font-size: 25px;
     margin-top: -14px;
 }
+
+.parallax-inner.p-one > h2:first-of-type {
+    color:  #d87f81;
+}
+
 
 .content-text p {
     padding: 25px 50px 25px 50px;
@@ -328,7 +334,7 @@ footer > p {
     font-size: 1em;
     text-align: center;
 }
-       
+footer p:last-of-type {font-size: .8em;}       
       
 /* Media Queries */
     
