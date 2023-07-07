@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
 }
 
 /* ----- Navigation Menu----- */
-.sidenav {
+/* .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -31,8 +31,6 @@ body {
     transition: 0.3s;
 }
 
-nav ul {margin-top: 180px;}
-
 .sidenav .closebtn {
     position: absolute;
     top: 5rem;
@@ -40,7 +38,7 @@ nav ul {margin-top: 180px;}
     font-size: 36px;
     margin-left: 50px;
     color: #fff;
-}
+} 
 
 .btn {
     font-size:30px;
@@ -50,6 +48,15 @@ nav ul {margin-top: 180px;}
     z-index: 5;
     cursor: pointer;
     user-select: none;
+}
+*/
+.nav ul {
+    margin-top: 180px;
+    list-style-type: none;
+}
+
+.nav ul li {
+    padding-top: 20px;
 }
 
 .fa-bars {
